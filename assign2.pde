@@ -133,7 +133,6 @@ void draw(){
  blood=225;
  }
  if(blood<=30){
-    println("GAME_OVER");
     gameState=GAME_LOSE;
   }
   break;
